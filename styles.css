@@ -40,33 +40,30 @@ body {
     color: #ffffff;
 }
 
-.container,
-.container * {
-    color: #ffffff;
-}
-
 .container h1,
 .container h2,
 .container h3 {
-    text-shadow: 0 0 25px currentColor;
     font-weight: bold;
 }
 
 .container h1 {
-    color: #ffffff;
+    color: #d4c1ff;
+    text-shadow: 0 0 20px rgb(115, 60, 226);
     margin: 2rem 0;
     margin-bottom: 4rem;
     line-height: 1.2;
 }
 
 .container h2 {
-    color: #e6e6fa;
+    color: #ab87ff;
+    text-shadow: 0 0 20px rgb(115, 60, 226);
     margin: 2rem 0;
     line-height: 1.3;
 }
 
 .container h3 {
     color: #f5d0f5;
+    text-shadow: 0 0 20px rgb(115, 60, 226);
     margin: 0.25rem 0 0.5rem 0;
     line-height: 1.4;
 }
@@ -118,6 +115,7 @@ body {
 .container i,
 .container em {
     color: #ffe4ff;
+    text-shadow: 0 0 20px rgb(115, 60, 226);
     font-style: italic;
 }
 
@@ -342,10 +340,6 @@ body {
     font-weight: bold;
 }
 
-.tooltip-label i {
-    text-shadow: 0 0 20px rgb(115, 60, 226);
-}
-
 .tooltip-text {
     user-select: none;
     display: inline-block;
@@ -389,8 +383,11 @@ body {
 }
 
 #centered-end {
-    color: #ae75ff;
     text-align: center;
+}
+
+#centered-end p {
+    color: #c195ff;
 }
 
 #centered-end b {
