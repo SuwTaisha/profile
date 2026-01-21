@@ -47,6 +47,16 @@ body {
     color: #ffffff;
 }
 
+@media (max-width: 768px) {
+    body {
+        align-items: flex-start;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+}
+
 .container h1,
 .container h2,
 .container h3 {
