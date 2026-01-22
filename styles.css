@@ -358,12 +358,13 @@ body {
     bottom: 0;
 
     height: 200px;
+    display: flex;
 
     justify-content: center;
     align-items: center;
 
     position: absolute;
-    width: 100%;
+    width: max(100%, 1200px);
 }
 
 #centered-end {
