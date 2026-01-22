@@ -31,7 +31,7 @@ body {
 }
 
 .container {
-    width: max(95vw, 1200px);
+    width: max(95vw, 75rem);
     background: rgba(15, 15, 35, 0.95);
     backdrop-filter: blur(20px);
     padding: 3rem;
@@ -364,7 +364,7 @@ body {
     align-items: center;
 
     position: absolute;
-    width: max(100%, 1200px);
+    width: max(100%, 75rem);
 }
 
 #centered-end {
@@ -414,4 +414,11 @@ body {
     box-shadow:
         0 20px 20px #aaa,
         inset 0 0 30px #ffffff;
+}
+
+@media (max-width: 768px) {
+    .container,
+    #end {
+        width: 100%;
+    }
 }
